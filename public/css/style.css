@@ -1,16 +1,4 @@
 @font-face {
-  font-family: "vazir";
-  src: url("../fonts/Vazir.eot");
-  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Vazir.woff2") format("woff2"),
-    url("../fonts/Vazir.woff") format("woff"),
-    url("../fonts/Vazir.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: "roboto";
   src: url("../fonts/Roboto-Regular.eot");
   src: url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"),
@@ -38,4 +26,8 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar-thumb {
   background: #1e2125;
   border-radius: 10px;
+}
+html::-webkit-scrollbar-thumb:hover {
+  background: #8b0202;
+  border-radius: 0px;
 }
